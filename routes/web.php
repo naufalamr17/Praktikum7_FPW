@@ -16,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [\App\Http\Controllers\KelasController::class, 'index']);
 
 Route::get('/kelas', [\App\Http\Controllers\KelasController::class, 'index']);
+
+Route::post('/store-form', [\App\Http\Controllers\KelasController::class, 'store']);
